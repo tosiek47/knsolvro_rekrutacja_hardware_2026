@@ -1,0 +1,11 @@
+Cyrkulacja powietrza to bardzo ważna sprawa. Przebywanie w niewietrzonym pokoju nie jest zbyt przyjemne. Ludzkie ciało samo z siebie emituje bez przerwy temperaturę oraz wilgoć. 
+
+Mierzalnymi danymi są na przykład:
+
+CO2, które jest mierzone w ppm. Czyste powietrze ma około 400 ppm, natomiast jeżeli ktoś przez kilka godzin będzie pracował w zamkniętym pomieszczeniu to ta wartość może skoczyć do nawet ponad 1500 ppm. To oznacza, że możemy odczuwać większe znużenie oraz bóle głowy, nie wspominając o pogorszonej koncentracji.
+
+Wilgoć powietrza (w %). Jeżeli wilgotność jest za duża (60-70%) w połączeniu z podwyższoną temperaturą powoduje uczucie zaduchu, który na pewno nie pomaga w obowiązkach.
+
+Tego typu dane można zmierzyć gotowymi miernikami jakości powietrza, które w czasie rzeczywistym monitorują dane, albo samemu stworzyć coś takiego wykorzystując mikrokontroler (np. esp 32) oraz moduł sensirion scd40. Wtedy możemy samemu spersonalizować jak takie urządzenie będzie wyglądać.
+
+A jeśli chodzi o przypominanie, to można stworzyć prosty program właśnie z wykorzystaniem esp 32, który będzie wysyłał powiadomienia (np. na telegramie), jeżeli wartość przekroczy określony próg. (CO2 > 1000 ppm). Takie rozwiązanie byłoby bardzo skuteczne, ponieważ ciągłe powiadomienia o zbyt słabej jakości powietrza mogły by irytować co by poskutkowało przewietrzeniem pokoju. 
