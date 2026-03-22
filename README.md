@@ -1,0 +1,2 @@
+# knsolvro_rekrutacja_hardware_2026
+Antoni Pszenica zadania rekrutacyjne solvro hardware
